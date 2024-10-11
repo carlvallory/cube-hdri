@@ -1,6 +1,7 @@
 import * as THREE from 'three';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
 import { EXRLoader } from 'three/examples/jsm/loaders/EXRLoader.js';
+import { RoundedBoxGeometry } from 'three/examples/jsm/geometries/RoundedBoxGeometry.js';
 import { gsap, ScrollTrigger, Draggable, MotionPathPlugin } from "gsap/all";
 import GUI from 'lil-gui';
 import { iridescenceIOR } from 'three/webgpu';
